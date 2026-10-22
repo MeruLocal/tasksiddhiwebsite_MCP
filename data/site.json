@@ -1,0 +1,1517 @@
+{
+ "generated_from": {
+  "source": "tasksiddhi.com website, trunk main",
+  "commit": "5543b17"
+ },
+ "intro": "TaskSiddhi is a board-based work management product for field and service teams of 5 to 30, made by Soor LLC, a Delaware-registered company (16192 Coastal Hwy, Lewes, DE 19958, USA; +1-607-318-2126). TaskSiddhi has two plans. Free Forever is the whole product for the whole team: no per-user price, no trial and no payment card, in any market. Custom is quoted per team and adds custom integrations, higher fair-use limits, guided onboarding and priority support. Fair-use limits apply so that one very large workspace cannot slow the service for everyone else; any published limit is stated on the pricing page. Soor LLC will not remove features that are free today.",
+ "does": "What TaskSiddhi does: Table, Kanban, Calendar, Analytics, Activity, Sprints and Files views; My Work across boards; 15 column types; burndown, weekly velocity, cycle time, hours per day, time by person and cross-board reports; time tracking; recurring tasks; stage rules and three internal stage actions (rep task, reminder, next service); roles and per-stage permissions; 60-second undo; spreadsheet import; CSV or Excel export up to 10,000 rows per export; REST API and outbound webhooks. Android and web.",
+ "does_not": "What TaskSiddhi does not do: it sends customers nothing (no WhatsApp, calls, email, quotes or invoices to customers; those are CRM jobs). No Timeline or Gantt view, no guest access or client share links, no importer from Trello, Asana or Jira, no scheduled report delivery, no billable or utilisation report, no PDF export, no native iOS app, no offline mode. Dependencies warn but do not block; approvals record a decision but do not move the card.",
+ "pricing_note": "TaskSiddhi is free in every market. These pages differ only in language and region, not in price.",
+ "no_removal_promise": "Free Forever stays free: we won't remove features that are free today.",
+ "plans": {
+  "free": "Free Forever",
+  "custom": "Custom"
+ },
+ "custom_plan": [
+  {
+   "title": "Custom integrations",
+   "text": "We connect TaskSiddhi to the tools and systems your team already runs, built for your workflow."
+  },
+  {
+   "title": "Higher fair-use limits",
+   "text": "More members, more file storage and more invites a day, set for the size of your team."
+  },
+  {
+   "title": "Guided onboarding and setup",
+   "text": "We set up your boards, import your spreadsheets and walk your team through the first weeks."
+  },
+  {
+   "title": "Priority support",
+   "text": "A named contact and faster replies when something needs fixing."
+  }
+ ],
+ "plan_comparison": [
+  {
+   "label": "Table, Kanban and Calendar views",
+   "free": true,
+   "custom": true
+  },
+  {
+   "label": "Whole team, not a seat count",
+   "free": true,
+   "custom": true
+  },
+  {
+   "label": "Reporting and time tracking",
+   "free": true,
+   "custom": true
+  },
+  {
+   "label": "Automation rules and approvals",
+   "free": true,
+   "custom": true
+  },
+  {
+   "label": "Spreadsheet import and the API",
+   "free": true,
+   "custom": true
+  },
+  {
+   "label": "CSV and Excel export",
+   "free": true,
+   "custom": true
+  },
+  {
+   "label": "Custom integrations with your systems",
+   "free": false,
+   "custom": "Built for you"
+  },
+  {
+   "label": "Fair-use limits",
+   "free": "Standard",
+   "custom": "Raised for your team"
+  },
+  {
+   "label": "Onboarding",
+   "free": "Self-serve, with the help center",
+   "custom": "Guided setup and training"
+  },
+  {
+   "label": "Support",
+   "free": "Help center and WhatsApp",
+   "custom": "Priority, with a named contact"
+  },
+  {
+   "label": "Price",
+   "free": "Free",
+   "custom": "Quoted for your team"
+  }
+ ],
+ "pages": [
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Home",
+   "url": "https://tasksiddhi.com/",
+   "description": "what TaskSiddhi is and who it is for"
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Product tour",
+   "url": "https://tasksiddhi.com/tour",
+   "description": "the product in eight screens"
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Features",
+   "url": "https://tasksiddhi.com/features",
+   "description": ""
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Kanban software with table and calendar views",
+   "url": "https://tasksiddhi.com/features/boards-and-views",
+   "description": ""
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Burndown, velocity and cycle time reports",
+   "url": "https://tasksiddhi.com/features/reporting",
+   "description": ""
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Time tracking",
+   "url": "https://tasksiddhi.com/features/time-tracking",
+   "description": ""
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Stage rules and reminders",
+   "url": "https://tasksiddhi.com/features/automation",
+   "description": ""
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Spreadsheet import and REST API",
+   "url": "https://tasksiddhi.com/features/capture",
+   "description": ""
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Android and web app",
+   "url": "https://tasksiddhi.com/features/mobile",
+   "description": ""
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Approval workflow for team tasks",
+   "url": "https://tasksiddhi.com/features/approvals",
+   "description": ""
+  },
+  {
+   "section": "Product",
+   "subsection": "",
+   "title": "Undo, roles and audit log",
+   "url": "https://tasksiddhi.com/features/safety-and-control",
+   "description": ""
+  },
+  {
+   "section": "Use cases",
+   "subsection": "",
+   "title": "Field visits",
+   "url": "https://tasksiddhi.com/use-cases/field-visits",
+   "description": ""
+  },
+  {
+   "section": "Use cases",
+   "subsection": "",
+   "title": "Recurring and AMC service jobs",
+   "url": "https://tasksiddhi.com/use-cases/service-jobs",
+   "description": ""
+  },
+  {
+   "section": "Use cases",
+   "subsection": "",
+   "title": "Client work for small firms",
+   "url": "https://tasksiddhi.com/use-cases/client-work",
+   "description": ""
+  },
+  {
+   "section": "Guides",
+   "subsection": "",
+   "title": "Guides",
+   "url": "https://tasksiddhi.com/guides",
+   "description": ""
+  },
+  {
+   "section": "Guides",
+   "subsection": "",
+   "title": "How to delegate tasks",
+   "url": "https://tasksiddhi.com/guides/how-to-delegate-tasks",
+   "description": ""
+  },
+  {
+   "section": "Guides",
+   "subsection": "",
+   "title": "Managing team tasks in WhatsApp groups",
+   "url": "https://tasksiddhi.com/guides/team-tasks-in-whatsapp-groups",
+   "description": ""
+  },
+  {
+   "section": "Guides",
+   "subsection": "",
+   "title": "When an employee keeps missing deadlines",
+   "url": "https://tasksiddhi.com/guides/employee-missing-deadlines",
+   "description": ""
+  },
+  {
+   "section": "Guides",
+   "subsection": "",
+   "title": "Employee task management for teams in India",
+   "url": "https://tasksiddhi.com/in/employee-task-management",
+   "description": ""
+  },
+  {
+   "section": "Guides",
+   "subsection": "",
+   "title": "Daily work report format, with a free template (India)",
+   "url": "https://tasksiddhi.com/in/daily-work-report-format",
+   "description": ""
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "All templates",
+   "url": "https://tasksiddhi.com/templates",
+   "description": ""
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Weekly planner",
+   "url": "https://tasksiddhi.com/templates/weekly-planner",
+   "description": "Plan the week by day, with three weekly goals and a Friday close-out.",
+   "slug": "weekly-planner"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "To-do list",
+   "url": "https://tasksiddhi.com/templates/to-do-list",
+   "description": "Urgent, This week and Later, with a status and priority on every task.",
+   "slug": "to-do-list"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Daily planner",
+   "url": "https://tasksiddhi.com/templates/daily-planner",
+   "description": "Must do, should do, if there is time, and waiting on someone.",
+   "slug": "daily-planner"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Project plan",
+   "url": "https://tasksiddhi.com/templates/project-management",
+   "description": "Five phases from scope to sign-off, one task per step.",
+   "slug": "project-management"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Event management",
+   "url": "https://tasksiddhi.com/templates/event-management",
+   "description": "Seven stages from brief to debrief, with a run of show and a budget reconciliation.",
+   "slug": "event-management"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Wedding planning",
+   "url": "https://tasksiddhi.com/templates/wedding-planning",
+   "description": "Seven stages from client brief to wrap-up, written for the planner rather than the couple.",
+   "slug": "wedding-planning"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Manufacturing SOP",
+   "url": "https://tasksiddhi.com/templates/manufacturing",
+   "description": "Five stages to write, approve, pilot, roll out and audit one SOP.",
+   "slug": "manufacturing"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Print job",
+   "url": "https://tasksiddhi.com/templates/printing",
+   "description": "Five stages from order intake to delivery, with a prepress check and a press check built in.",
+   "slug": "printing"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Construction project management",
+   "url": "https://tasksiddhi.com/templates/construction",
+   "description": "Five stages from scope and approvals through site execution to handover.",
+   "slug": "construction"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Clinic workflow",
+   "url": "https://tasksiddhi.com/templates/clinic",
+   "description": "Six stages covering scheduling, the front desk day, billing and supplies.",
+   "slug": "clinic"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Warehouse SOP",
+   "url": "https://tasksiddhi.com/templates/warehouse",
+   "description": "Six stages to draft, approve, pilot, brief and release warehouse routines.",
+   "slug": "warehouse"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Retail store SOP",
+   "url": "https://tasksiddhi.com/templates/retail-store",
+   "description": "Six stages from store standards and cash routines to a repeating audit.",
+   "slug": "retail-store"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Daycare operations",
+   "url": "https://tasksiddhi.com/templates/daycare",
+   "description": "Five stages covering daily routines, enrolment, concerns, approval and a pilot.",
+   "slug": "daycare"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Web design workflow",
+   "url": "https://tasksiddhi.com/templates/web-design",
+   "description": "Six stages from discovery and scope to launch, handover and review.",
+   "slug": "web-design"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Catering job",
+   "url": "https://tasksiddhi.com/templates/catering",
+   "description": "Six stages from enquiry and quote through the service day to follow-up.",
+   "slug": "catering"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Software development SOP",
+   "url": "https://tasksiddhi.com/templates/software-development",
+   "description": "Six stages to draft, approve, pilot and roll out team routines.",
+   "slug": "software-development"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Real estate transaction",
+   "url": "https://tasksiddhi.com/templates/real-estate",
+   "description": "Six stages from listing preparation through conditions to closing.",
+   "slug": "real-estate"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Digital marketing agency workflow",
+   "url": "https://tasksiddhi.com/templates/digital-marketing-agency",
+   "description": "Five stages from proposal and access to launch, reporting and review.",
+   "slug": "digital-marketing-agency"
+  },
+  {
+   "section": "Templates (free CSV downloads that import into a TaskSiddhi board)",
+   "subsection": "",
+   "title": "Advisory practice administration",
+   "url": "https://tasksiddhi.com/templates/financial-advisor",
+   "description": "Five stages to draft, approve, pilot and roll out practice routines.",
+   "slug": "financial-advisor"
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "",
+   "title": "All 57 tools",
+   "url": "https://tasksiddhi.com/tools",
+   "description": ""
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Work hours calculator",
+   "url": "https://tasksiddhi.com/tools/work-hours-calculator",
+   "description": "Add up a week of start, break and finish times to get daily and weekly totals in hours and minutes and in decimal."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Time duration calculator",
+   "url": "https://tasksiddhi.com/tools/time-duration-calculator",
+   "description": "Find the hours and minutes between two times, across midnight or across several days."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Add time calculator",
+   "url": "https://tasksiddhi.com/tools/add-time-calculator",
+   "description": "Add and subtract hours and minutes line by line, and get the total in hours and minutes and in decimal."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Decimal hours converter",
+   "url": "https://tasksiddhi.com/tools/decimal-hours-converter",
+   "description": "Convert hours and minutes to decimal hours and back, so a timesheet reads the same as the payroll column."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Minutes to hours converter",
+   "url": "https://tasksiddhi.com/tools/minutes-to-hours-converter",
+   "description": "Convert minutes to hours and hours to minutes, one value or a whole list, in hours and minutes and in decimal."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Hours to days converter",
+   "url": "https://tasksiddhi.com/tools/hours-to-days-converter",
+   "description": "Turn hours into calendar days, working days and working weeks of the length you set, and back again."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Military time converter",
+   "url": "https://tasksiddhi.com/tools/military-time-converter",
+   "description": "Convert 24-hour times like 1730 to 5:30 PM and back, with a chart for every hour of the day."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Timesheet template",
+   "url": "https://tasksiddhi.com/tools/timesheet-template",
+   "description": "Fill in a week of shifts, get the totals worked out, and print a timesheet ready to sign."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Overtime pay calculator",
+   "url": "https://tasksiddhi.com/tools/overtime-calculator",
+   "description": "Split a week's hours at the overtime threshold you set, apply your own multiplier, and see the gross pay."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Time and a half calculator",
+   "url": "https://tasksiddhi.com/tools/time-and-a-half-calculator",
+   "description": "Work out time and a half and double time from an hourly rate, and the pay for the extra hours in a week."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Shift differential calculator",
+   "url": "https://tasksiddhi.com/tools/shift-differential-calculator",
+   "description": "Add a premium for night, evening or weekend hours, as an amount or a percentage, and see the week's pay."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Time and hours",
+   "title": "Billable hours calculator",
+   "url": "https://tasksiddhi.com/tools/billable-hours-calculator",
+   "description": "Compare the hours you worked with the hours you billed, and see the rate you really earn across all of them."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Shift schedules",
+   "title": "Work schedule maker",
+   "url": "https://tasksiddhi.com/tools/work-schedule-maker",
+   "description": "Build a week of shifts for a small team, see each person's hours, and copy the schedule as text."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Shift schedules",
+   "title": "Rotating shift schedule maker",
+   "url": "https://tasksiddhi.com/tools/rotating-shift-schedule",
+   "description": "Lay out a rotating shift pattern for several crews, from 4 on 4 off to your own, and check every shift is covered."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Shift schedules",
+   "title": "DuPont schedule",
+   "url": "https://tasksiddhi.com/tools/dupont-schedule",
+   "description": "Lay out the DuPont 12-hour rotation for four crews from any start date, with each crew's hours and seven days off."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Shift schedules",
+   "title": "2-2-3 schedule (Panama)",
+   "url": "https://tasksiddhi.com/tools/2-2-3-schedule",
+   "description": "Lay out the 2-2-3 Panama 12-hour schedule for four crews, with every other weekend off, from any start date."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Dates",
+   "title": "Days between dates",
+   "url": "https://tasksiddhi.com/tools/days-between-dates",
+   "description": "Count the days between two dates, and see the gap in weeks and days and in years, months and days."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Dates",
+   "title": "Weeks between dates",
+   "url": "https://tasksiddhi.com/tools/weeks-between-dates",
+   "description": "Count the weeks between two dates, and the weekly or biweekly paydays in between, including three-paycheck months."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Dates",
+   "title": "Months between dates",
+   "url": "https://tasksiddhi.com/tools/months-between-dates",
+   "description": "Count the months between two dates as whole months and days and as a decimal, and list the monthly billing dates."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Dates",
+   "title": "Business days calculator",
+   "url": "https://tasksiddhi.com/tools/business-days-calculator",
+   "description": "Count the working days between two dates, skipping your own holidays and the weekend days you choose."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Dates",
+   "title": "Add days to a date",
+   "url": "https://tasksiddhi.com/tools/add-days-to-date",
+   "description": "Add or subtract calendar days or working days from a date and see the exact day it lands on."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Dates",
+   "title": "Working hours in a year",
+   "url": "https://tasksiddhi.com/tools/working-hours-in-a-year",
+   "description": "Count the working days and hours in a year from your weekend, your holidays, your time off and your daily hours."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Dates",
+   "title": "Invoice due date calculator",
+   "url": "https://tasksiddhi.com/tools/invoice-due-date-calculator",
+   "description": "Find the due date for net 30 and other payment terms, with end-of-month terms, early payment discounts and late fees."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Pay and people",
+   "title": "Salary to hourly calculator",
+   "url": "https://tasksiddhi.com/tools/salary-to-hourly-calculator",
+   "description": "Convert a salary to an hourly, weekly, biweekly or monthly figure, or an hourly wage to a yearly salary."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Pay and people",
+   "title": "Pay raise calculator",
+   "url": "https://tasksiddhi.com/tools/pay-raise-calculator",
+   "description": "Work out new pay from a percentage or an amount, or the percentage between old pay and new."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Pay and people",
+   "title": "Employee cost calculator",
+   "url": "https://tasksiddhi.com/tools/employee-cost-calculator",
+   "description": "Add employer taxes, benefits, equipment and training to a salary to see the full yearly and hourly cost of a hire."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Pay and people",
+   "title": "FTE calculator",
+   "url": "https://tasksiddhi.com/tools/fte-calculator",
+   "description": "Add up full-time and part-time hours to get your team's full-time equivalents, from the full-time week you set."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Pay and people",
+   "title": "Revenue per employee calculator",
+   "url": "https://tasksiddhi.com/tools/revenue-per-employee-calculator",
+   "description": "Divide revenue and profit by headcount or FTEs, and see the revenue a new hire needs to bring in."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Pay and people",
+   "title": "Employee turnover calculator",
+   "url": "https://tasksiddhi.com/tools/employee-turnover-calculator",
+   "description": "Work out employee turnover and retention for a month, quarter or year from headcount, leavers and hires."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Quote and estimate template",
+   "url": "https://tasksiddhi.com/tools/quote-template",
+   "description": "Build a quote or an estimate line by line, add your own tax and discount, and print or download it for the customer."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Hourly rate calculator",
+   "url": "https://tasksiddhi.com/tools/hourly-rate-calculator",
+   "description": "Work out the hourly and day rate you need to charge from your target income, costs, tax and billable hours."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Markup and margin calculator",
+   "url": "https://tasksiddhi.com/tools/markup-calculator",
+   "description": "Work out a price from cost and markup or margin, and see the difference between the two at a glance."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Labor cost calculator",
+   "url": "https://tasksiddhi.com/tools/labor-cost-calculator",
+   "description": "Price the labor on a job from crew size, hours, wage and burden, and compare it with your charge-out rate."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Profit calculator",
+   "url": "https://tasksiddhi.com/tools/profit-calculator",
+   "description": "Work out gross and net profit and margin from revenue, direct costs and overheads, with the markup alongside."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Break-even calculator",
+   "url": "https://tasksiddhi.com/tools/break-even-calculator",
+   "description": "Find how many jobs or units you need to sell to cover your fixed costs, and to hit a profit target, with a chart."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Payback period calculator",
+   "url": "https://tasksiddhi.com/tools/payback-period-calculator",
+   "description": "See how many months a van, machine or tool takes to pay for itself from what it earns or saves."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Cash flow calculator",
+   "url": "https://tasksiddhi.com/tools/cash-flow-calculator",
+   "description": "Project your cash month by month from money in, money out and one-off costs, and see when it would run short."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "Mileage reimbursement calculator",
+   "url": "https://tasksiddhi.com/tools/mileage-reimbursement-calculator",
+   "description": "Log each trip, mark the round trips, apply your own rate per mile or kilometer, and copy the claim."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Business and quoting",
+   "title": "UTM builder",
+   "url": "https://tasksiddhi.com/tools/utm-builder",
+   "description": "Add utm_source, utm_medium and utm_campaign tags to any link so each campaign shows up separately in your analytics."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Planning",
+   "title": "Eisenhower matrix",
+   "url": "https://tasksiddhi.com/tools/eisenhower-matrix",
+   "description": "Sort your tasks by urgent and important into do, schedule, delegate and drop, then copy or print the four lists."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Planning",
+   "title": "Task breakdown builder",
+   "url": "https://tasksiddhi.com/tools/task-breakdown-builder",
+   "description": "Break a job into phases and tasks with owners and estimates, then take it away as a spreadsheet."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Planning",
+   "title": "Action plan template",
+   "url": "https://tasksiddhi.com/tools/action-plan-template",
+   "description": "Set a goal, break it into actions with an owner and a due date, track progress, then print or download it."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Planning",
+   "title": "Decision matrix",
+   "url": "https://tasksiddhi.com/tools/decision-matrix",
+   "description": "Score your options against weighted criteria and see which one comes out on top, and by how much."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Planning",
+   "title": "Status report template",
+   "url": "https://tasksiddhi.com/tools/status-report-template",
+   "description": "Write a weekly or project status report: overall status, what got done, what is next, risks and milestones."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Planning",
+   "title": "One-on-one meeting template",
+   "url": "https://tasksiddhi.com/tools/one-on-one-meeting-template",
+   "description": "Run a one-to-one with an agenda, notes and actions, and carry the open ones into the next meeting."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Planning",
+   "title": "Skills matrix template",
+   "url": "https://tasksiddhi.com/tools/skills-matrix-template",
+   "description": "Map who on the team can do which job, from learning to can teach, and spot the skills only one person has."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Scope of work template",
+   "url": "https://tasksiddhi.com/tools/scope-of-work-template",
+   "description": "Write a scope of work: deliverables, tasks, milestones, exclusions and sign-off, printed ready to agree."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Work order template",
+   "url": "https://tasksiddhi.com/tools/work-order-template",
+   "description": "Fill in the job, labor and materials, get the totals worked out, and print a work order to sign."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Change order template",
+   "url": "https://tasksiddhi.com/tools/change-order-template",
+   "description": "Price a change to a job, update the contract total and the finish date, and print a change order to sign."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Purchase order template",
+   "url": "https://tasksiddhi.com/tools/purchase-order-template",
+   "description": "Raise a purchase order to a supplier: items, quantities, prices, delivery date and terms, printed ready to send."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Daily report template",
+   "url": "https://tasksiddhi.com/tools/daily-report-template",
+   "description": "Fill in a daily site report: crew and hours, work done, deliveries, delays and safety, then print or copy it."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Incident report template",
+   "url": "https://tasksiddhi.com/tools/incident-report-template",
+   "description": "Record what happened, who was involved, what was done about it and what will stop it happening again."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Punch list template",
+   "url": "https://tasksiddhi.com/tools/punch-list-template",
+   "description": "List what is left to fix before handover, assign each item, tick it off, then print or download the list."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Maintenance checklist",
+   "url": "https://tasksiddhi.com/tools/maintenance-checklist",
+   "description": "Build a preventive maintenance checklist from a preset, set how often each task is due, and print the sheet."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Vehicle inspection checklist",
+   "url": "https://tasksiddhi.com/tools/vehicle-inspection-checklist",
+   "description": "Walk round a van, truck, trailer or machine, mark each check pass or fail, note the defects and sign it off."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Job safety analysis (JSA)",
+   "url": "https://tasksiddhi.com/tools/job-safety-analysis",
+   "description": "Break a job into steps, list the hazards in each step and the controls for them, then sign it with the crew."
+  },
+  {
+   "section": "Free tools (run in the browser, no login, nothing stored on the server)",
+   "subsection": "Field work",
+   "title": "Office cleaning checklist",
+   "url": "https://tasksiddhi.com/tools/office-cleaning-checklist",
+   "description": "Build a commercial cleaning checklist by area, with daily, weekly and monthly tasks, and print it for the crew."
+  },
+  {
+   "section": "Pricing",
+   "subsection": "",
+   "title": "Pricing (US)",
+   "url": "https://tasksiddhi.com/pricing",
+   "description": ""
+  },
+  {
+   "section": "Pricing",
+   "subsection": "",
+   "title": "Pricing in India",
+   "url": "https://tasksiddhi.com/pricing/in",
+   "description": ""
+  },
+  {
+   "section": "Pricing",
+   "subsection": "",
+   "title": "Pricing in the UK",
+   "url": "https://tasksiddhi.com/pricing/gb",
+   "description": ""
+  },
+  {
+   "section": "Pricing",
+   "subsection": "",
+   "title": "Pricing in Australia",
+   "url": "https://tasksiddhi.com/pricing/au",
+   "description": ""
+  },
+  {
+   "section": "Pricing",
+   "subsection": "",
+   "title": "Pricing in the UAE",
+   "url": "https://tasksiddhi.com/pricing/ae",
+   "description": ""
+  },
+  {
+   "section": "Pricing",
+   "subsection": "",
+   "title": "Pricing in Singapore",
+   "url": "https://tasksiddhi.com/pricing/sg",
+   "description": ""
+  },
+  {
+   "section": "Pricing",
+   "subsection": "",
+   "title": "Pricing in New Zealand",
+   "url": "https://tasksiddhi.com/pricing/nz",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "All comparisons",
+   "url": "https://tasksiddhi.com/alternatives",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs Trello",
+   "url": "https://tasksiddhi.com/alternatives/trello",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs Asana",
+   "url": "https://tasksiddhi.com/alternatives/asana",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs Todoist",
+   "url": "https://tasksiddhi.com/alternatives/todoist",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs Microsoft Planner",
+   "url": "https://tasksiddhi.com/alternatives/microsoft-planner",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs Jobber",
+   "url": "https://tasksiddhi.com/alternatives/jobber",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs Housecall Pro",
+   "url": "https://tasksiddhi.com/alternatives/housecall-pro",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs ServiceTitan",
+   "url": "https://tasksiddhi.com/alternatives/servicetitan",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs Zoho Projects",
+   "url": "https://tasksiddhi.com/alternatives/zoho-projects",
+   "description": ""
+  },
+  {
+   "section": "Comparisons (one competitor per page, sourced from each vendor's public pricing page)",
+   "subsection": "",
+   "title": "TaskSiddhi vs Bitrix24",
+   "url": "https://tasksiddhi.com/alternatives/bitrix24",
+   "description": ""
+  },
+  {
+   "section": "Country homepages",
+   "subsection": "",
+   "title": "United States",
+   "url": "https://tasksiddhi.com/",
+   "description": ""
+  },
+  {
+   "section": "Country homepages",
+   "subsection": "",
+   "title": "India",
+   "url": "https://tasksiddhi.com/in",
+   "description": ""
+  },
+  {
+   "section": "Country homepages",
+   "subsection": "",
+   "title": "United Kingdom",
+   "url": "https://tasksiddhi.com/gb",
+   "description": ""
+  },
+  {
+   "section": "Country homepages",
+   "subsection": "",
+   "title": "Australia",
+   "url": "https://tasksiddhi.com/au",
+   "description": ""
+  },
+  {
+   "section": "Country homepages",
+   "subsection": "",
+   "title": "United Arab Emirates",
+   "url": "https://tasksiddhi.com/ae",
+   "description": ""
+  },
+  {
+   "section": "Country homepages",
+   "subsection": "",
+   "title": "Singapore",
+   "url": "https://tasksiddhi.com/sg",
+   "description": ""
+  },
+  {
+   "section": "Country homepages",
+   "subsection": "",
+   "title": "New Zealand",
+   "url": "https://tasksiddhi.com/nz",
+   "description": ""
+  },
+  {
+   "section": "Company",
+   "subsection": "",
+   "title": "About",
+   "url": "https://tasksiddhi.com/about",
+   "description": ""
+  },
+  {
+   "section": "Company",
+   "subsection": "",
+   "title": "Security",
+   "url": "https://tasksiddhi.com/security",
+   "description": ""
+  },
+  {
+   "section": "Company",
+   "subsection": "",
+   "title": "Help",
+   "url": "https://tasksiddhi.com/help",
+   "description": ""
+  },
+  {
+   "section": "Company",
+   "subsection": "",
+   "title": "Blog",
+   "url": "https://tasksiddhi.com/blog",
+   "description": ""
+  },
+  {
+   "section": "Company",
+   "subsection": "",
+   "title": "Contact",
+   "url": "https://tasksiddhi.com/contact",
+   "description": ""
+  },
+  {
+   "section": "Company",
+   "subsection": "",
+   "title": "Partners",
+   "url": "https://tasksiddhi.com/partners",
+   "description": ""
+  },
+  {
+   "section": "Company",
+   "subsection": "",
+   "title": "Delete your account",
+   "url": "https://tasksiddhi.com/delete-account",
+   "description": "how to delete a TaskSiddhi profile from Settings, what is removed, what the workspace keeps, and who to write to if you cannot sign in"
+  }
+ ],
+ "alternatives": [
+  {
+   "slug": "trello",
+   "name": "Trello",
+   "checked": "22 September 2026",
+   "checked_iso": "2026-09-22",
+   "url": "https://tasksiddhi.com/alternatives/trello",
+   "sources": [
+    {
+     "label": "trello.com/pricing",
+     "url": "https://trello.com/pricing"
+    }
+   ],
+   "summary": "Trello is the simplest Kanban board there is. TaskSiddhi is a free Trello alternative that adds the reporting and time tracking a service team needs.",
+   "rows": [
+    {
+     "label": "Price",
+     "us": "Free Forever, or Custom (quoted)",
+     "them": "Standard $5, Premium $10 per user per month on annual billing, in US dollars"
+    },
+    {
+     "label": "Free plan",
+     "us": "Free to use, no seat count",
+     "them": "Free plan available"
+    },
+    {
+     "label": "Burndown, velocity, cycle time",
+     "us": "Burndown, weekly velocity, cycle time, hours per day, time by person",
+     "them": "Not listed on any plan; dashboards start on Premium"
+    },
+    {
+     "label": "Time tracking",
+     "us": "Live timer and manual entries, included",
+     "them": "Not listed on any plan"
+    },
+    {
+     "label": "Data export",
+     "us": "CSV or Excel at any time, up to 10,000 rows per export",
+     "them": "Listed from Premium"
+    },
+    {
+     "label": "AI features",
+     "us": "None",
+     "them": "From Standard: summaries, generated boards and checklists, card merging"
+    }
+   ],
+   "they_win": [
+    "Trello has AI features from its $5 Standard plan, including merging duplicate cards. TaskSiddhi has no AI features.",
+    "Trello has a huge ecosystem of add-ons and integrations. TaskSiddhi offers a REST API and outbound webhooks only.",
+    "If a simple card board is all you need, Trello's free plan may be enough."
+   ],
+   "we_win": [
+    "Burndown, velocity and cycle time reports are built in.",
+    "Time tracking is included for everyone, with no add-on.",
+    "Free forever, with no card.",
+    "Each rep sees their scheduled jobs in Today, with a schedule date separate from the due date."
+   ],
+   "switch_note": "Export your Trello board to a spreadsheet, then use TaskSiddhi's five-step spreadsheet import. There is no direct importer from Trello."
+  },
+  {
+   "slug": "asana",
+   "name": "Asana",
+   "checked": "22 September 2026",
+   "checked_iso": "2026-09-22",
+   "url": "https://tasksiddhi.com/alternatives/asana",
+   "sources": [
+    {
+     "label": "asana.com/pricing",
+     "url": "https://asana.com/pricing"
+    }
+   ],
+   "summary": "Asana is a mature work-management suite. TaskSiddhi is a lighter board for field and service teams, free for the whole team.",
+   "rows": [
+    {
+     "label": "Price",
+     "us": "Free Forever, or Custom (quoted)",
+     "them": "Starter $10.99, Advanced $24.99 per user per month on annual billing, in US dollars"
+    },
+    {
+     "label": "Free plan",
+     "us": "Free to use, no seat count",
+     "them": "Personal plan for up to 2 users"
+    },
+    {
+     "label": "Time tracking",
+     "us": "Live timer and manual entries, included",
+     "them": "Included on paid plans"
+    },
+    {
+     "label": "Guests",
+     "us": "No guest access",
+     "them": "Unlimited free guests up to Advanced"
+    },
+    {
+     "label": "Timeline / Gantt",
+     "us": "No Timeline or Gantt view",
+     "them": "Available on paid plans"
+    },
+    {
+     "label": "Billing",
+     "us": "Nothing to bill on Free Forever; Custom is quoted",
+     "them": "Starter and Advanced prices shown are for annual billing"
+    }
+   ],
+   "they_win": [
+    "Asana gives unlimited free guests. TaskSiddhi has no guest access at all, so clients cannot see your boards.",
+    "Asana has Timeline views and more ways to plan long projects. TaskSiddhi has no Timeline or Gantt view.",
+    "Asana has a native iPhone app. TaskSiddhi does not."
+   ],
+   "we_win": [
+    "TaskSiddhi is free for the whole team, against 2 users on Asana's free plan.",
+    "Free forever, with reports and time tracking included.",
+    "Built around field work: a schedule date per assignee and each rep's Today screen.",
+    "60 seconds to undo a completion or a stage move."
+   ],
+   "switch_note": "Export your Asana project to CSV, then use TaskSiddhi's spreadsheet import. There is no direct importer from Asana."
+  },
+  {
+   "slug": "todoist",
+   "name": "Todoist",
+   "checked": "22 September 2026",
+   "checked_iso": "2026-09-22",
+   "url": "https://tasksiddhi.com/alternatives/todoist",
+   "sources": [
+    {
+     "label": "todoist.com/pricing",
+     "url": "https://www.todoist.com/pricing"
+    }
+   ],
+   "summary": "Todoist is an excellent personal and small-team to-do list. TaskSiddhi is a board with reports and time tracking for a team doing jobs.",
+   "rows": [
+    {
+     "label": "Built for",
+     "us": "Teams of 5 to 30 doing service jobs",
+     "them": "Personal and team task lists"
+    },
+    {
+     "label": "Free plan",
+     "us": "Free to use, no seat count",
+     "them": "Beginner plan with 5 personal projects"
+    },
+    {
+     "label": "Burndown, velocity, cycle time",
+     "us": "Burndown, weekly velocity, cycle time, hours per day, time by person",
+     "them": "Not listed; paid plans keep full reporting history"
+    },
+    {
+     "label": "Time tracking",
+     "us": "Live timer and manual entries, included",
+     "them": "Not listed; paid plans add task duration"
+    },
+    {
+     "label": "Boards and views",
+     "us": "Table, Kanban, Calendar, Analytics",
+     "them": "List, board and calendar layouts"
+    },
+    {
+     "label": "Mobile",
+     "us": "Android and web; no native iOS app",
+     "them": "Native apps across platforms"
+    }
+   ],
+   "they_win": [
+    "Todoist has native apps on every platform, including iPhone, and works well offline. TaskSiddhi needs a connection and has no iOS app.",
+    "For one person's to-do list, Todoist is simpler and faster."
+   ],
+   "we_win": [
+    "Reports a manager can use: burndown, velocity, cycle time and workload by person.",
+    "Time tracking with a live timer and roll-ups by person and board.",
+    "Board roles, per-stage permissions and a contributor role for reps.",
+    "Free to use, with reporting and time tracking included."
+   ],
+   "switch_note": "Export your Todoist projects to CSV, then use TaskSiddhi's spreadsheet import. There is no direct importer from Todoist."
+  },
+  {
+   "slug": "microsoft-planner",
+   "name": "Microsoft Planner",
+   "checked": "23 September 2026",
+   "checked_iso": "2026-09-23",
+   "url": "https://tasksiddhi.com/alternatives/microsoft-planner",
+   "sources": [
+    {
+     "label": "Microsoft Planner plans and pricing (US)",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/planner/microsoft-planner-plans-and-pricing"
+    }
+   ],
+   "summary": "If you already pay for Microsoft 365, basic Planner is there at no extra cost. TaskSiddhi adds the reports and time tracking Planner does not list.",
+   "rows": [
+    {
+     "label": "Price",
+     "us": "Free Forever, or Custom (quoted)",
+     "them": "Basic Planner included in Microsoft 365; Planner Plan 1 $10.00 per user per month, paid yearly"
+    },
+    {
+     "label": "Billing",
+     "us": "Nothing to bill on Free Forever; Custom is quoted",
+     "them": "Plan 1 is an annual commitment"
+    },
+    {
+     "label": "Burndown, velocity, cycle time",
+     "us": "Burndown, weekly velocity, cycle time, hours per day, time by person",
+     "them": "Not listed on any plan"
+    },
+    {
+     "label": "Time tracking",
+     "us": "Live timer and manual entries, included",
+     "them": "Not listed on any plan"
+    },
+    {
+     "label": "Timeline / Gantt",
+     "us": "No Timeline or Gantt view",
+     "them": "From Planner Plan 1"
+    }
+   ],
+   "they_win": [
+    "If your company already has Microsoft 365, basic Planner costs nothing extra.",
+    "Planner sits inside Teams and Outlook, which your staff may already use every day.",
+    "Planner Plan 1 has a Timeline (Gantt) view. TaskSiddhi does not."
+   ],
+   "we_win": [
+    "Burndown, velocity, cycle time and time tracking, which Planner does not list on any plan.",
+    "No subscription and no annual commitment: TaskSiddhi is free forever.",
+    "Each rep's Today screen and a schedule date for every job."
+   ],
+   "switch_note": "Export your Planner plan to Excel, then use TaskSiddhi's spreadsheet import."
+  },
+  {
+   "slug": "zoho-projects",
+   "name": "Zoho Projects",
+   "checked": "22 September 2026",
+   "checked_iso": "2026-09-22",
+   "url": "https://tasksiddhi.com/alternatives/zoho-projects",
+   "sources": [
+    {
+     "label": "zoho.com/projects/pricing",
+     "url": "https://www.zoho.com/projects/pricing.html"
+    }
+   ],
+   "summary": "Zoho Projects is a full project-management suite. TaskSiddhi is narrower: a board for field and service teams, quick to set up.",
+   "rows": [
+    {
+     "label": "Free plan",
+     "us": "Free to use, no seat count",
+     "them": "Up to 5 users and 3 projects"
+    },
+    {
+     "label": "Timesheets / time tracking",
+     "us": "Live timer and manual entries, included",
+     "them": "On paid plans"
+    },
+    {
+     "label": "Advanced reports",
+     "us": "Burndown, weekly velocity, cycle time, hours per day, time by person",
+     "them": "On paid plans"
+    },
+    {
+     "label": "Gantt charts",
+     "us": "No Timeline or Gantt view",
+     "them": "On every plan, including free"
+    },
+    {
+     "label": "Built for",
+     "us": "Service jobs and field visits",
+     "them": "General project management"
+    }
+   ],
+   "they_win": [
+    "Zoho Projects has Gantt charts on every plan, including free. TaskSiddhi has none.",
+    "If you already run on Zoho apps, Projects connects to them."
+   ],
+   "we_win": [
+    "Recurring service jobs, stage rules and 60-second undo, built for field teams.",
+    "Made for field work: each rep's Today screen, schedule dates per assignee, recurring service.",
+    "One product to learn, not a suite to configure."
+   ],
+   "switch_note": "Export your Zoho Projects tasks to CSV, then use TaskSiddhi's spreadsheet import."
+  },
+  {
+   "slug": "bitrix24",
+   "name": "Bitrix24",
+   "checked": "23 September 2026",
+   "checked_iso": "2026-09-23",
+   "url": "https://tasksiddhi.com/alternatives/bitrix24",
+   "sources": [
+    {
+     "label": "bitrix24.com/prices",
+     "url": "https://www.bitrix24.com/prices/"
+    }
+   ],
+   "summary": "Bitrix24 is an all-in-one suite with flat pricing for a group of users. TaskSiddhi is one product, free to use.",
+   "rows": [
+    {
+     "label": "Pricing model",
+     "us": "Free Forever; Custom is quoted",
+     "them": "Flat price per plan: Basic US$69/month for 5 users, Standard US$144/month for 50 users (monthly billing)"
+    },
+    {
+     "label": "Free plan",
+     "us": "Free to use, no seat count",
+     "them": "1–2 users"
+    },
+    {
+     "label": "Time tracking",
+     "us": "Live timer and manual entries, included",
+     "them": "Task time tracking from Professional (US$289/month, monthly billing)"
+    },
+    {
+     "label": "Gantt",
+     "us": "No Timeline or Gantt view",
+     "them": "From Basic"
+    },
+    {
+     "label": "Scope",
+     "us": "Boards, reports and time tracking",
+     "them": "CRM, tasks, chat, calendars and more in one suite"
+    }
+   ],
+   "they_win": [
+    "Bitrix24 Standard covers up to 50 users on one flat price (US$144 a month on monthly billing). TaskSiddhi is built for teams of 5 to 30.",
+    "Bitrix24 includes Gantt charts, a CRM and team chat in one suite."
+   ],
+   "we_win": [
+    "TaskSiddhi is free forever, with no seat count, where Bitrix24 Basic is US$69 a month for 5 users.",
+    "Time tracking is included, rather than starting on the US$289 Professional plan.",
+    "One focused product that a service team can set up in an afternoon."
+   ],
+   "switch_note": "Export your Bitrix24 tasks to a spreadsheet, then use TaskSiddhi's spreadsheet import."
+  },
+  {
+   "slug": "jobber",
+   "name": "Jobber",
+   "checked": "2 October 2026",
+   "checked_iso": "2026-10-02",
+   "url": "https://tasksiddhi.com/alternatives/jobber",
+   "sources": [
+    {
+     "label": "getjobber.com/pricing",
+     "url": "https://www.getjobber.com/pricing/"
+    }
+   ],
+   "summary": "Jobber quotes, invoices and takes payment; TaskSiddhi does none of that. It runs the work itself on a board, and is free to use.",
+   "rows": [
+    {
+     "label": "Price",
+     "us": "Free Forever, or Custom (quoted)",
+     "them": "Core $29, Connect $99, Grow $149 and Plus $399 per month on annual billing, each including one user; extra users $29 per month each"
+    },
+    {
+     "label": "Free plan",
+     "us": "Free to use, no seat count",
+     "them": "No free plan. 14-day trial on Grow, no card required"
+    },
+    {
+     "label": "Quotes, invoices, payments",
+     "us": "None. TaskSiddhi does not quote, invoice or take payment",
+     "them": "Quoting, invoicing and online payments on every plan"
+    },
+    {
+     "label": "Burndown, velocity, cycle time",
+     "us": "Burndown, weekly velocity, cycle time, hours per day, time by person",
+     "them": "Not listed on their pricing page"
+    },
+    {
+     "label": "Timeline / Gantt",
+     "us": "No Timeline or Gantt view",
+     "them": "Not listed on their pricing page"
+    },
+    {
+     "label": "Billing",
+     "us": "Nothing to bill on Free Forever; Custom is quoted",
+     "them": "The prices above are for annual billing; paying month to month costs more"
+    }
+   ],
+   "they_win": [
+    "Jobber quotes, invoices and takes payment. TaskSiddhi does none of these, so if you need to bill the customer from the same tool Jobber is the better choice.",
+    "Jobber covers the whole home-service job, from the customer's request through to the money arriving. TaskSiddhi only runs the work on a board.",
+    "Jobber has a native iPhone app. TaskSiddhi is Android and web only."
+   ],
+   "we_win": [
+    "A six-person crew pays nothing on TaskSiddhi. On Jobber the same crew needs Connect or Grow plus five extra users.",
+    "TaskSiddhi is free to use, where Jobber has no free plan at all.",
+    "Burndown, velocity and cycle time reports are built in.",
+    "Time tracking is included for everyone, with no add-on."
+   ],
+   "switch_note": "Export your job list from Jobber to a spreadsheet, then use TaskSiddhi's five-step spreadsheet import. There is no direct importer, and your quotes, invoices and payment history do not come across — those stay in Jobber or your accounting system."
+  },
+  {
+   "slug": "housecall-pro",
+   "name": "Housecall Pro",
+   "checked": "2 October 2026",
+   "checked_iso": "2026-10-02",
+   "url": "https://tasksiddhi.com/alternatives/housecall-pro",
+   "sources": [
+    {
+     "label": "housecallpro.com/pricing",
+     "url": "https://www.housecallpro.com/pricing/"
+    }
+   ],
+   "summary": "Housecall Pro takes a home-services job from booking to invoice. TaskSiddhi only runs the work on a board, and is free to use.",
+   "rows": [
+    {
+     "label": "Price",
+     "us": "Free Forever, or Custom (quoted)",
+     "them": "Basic $59, Essentials $149 and Max $299 per month on annual billing ($79, $189 and $329 paying monthly)"
+    },
+    {
+     "label": "Users included",
+     "us": "Everyone, at no cost; no tiers and no seat count",
+     "them": "Basic 1 user, Essentials 5, Max 8; extra users $35 per month each"
+    },
+    {
+     "label": "Free plan",
+     "us": "Free to use, no seat count",
+     "them": "No free plan. 14-day trial, no card required"
+    },
+    {
+     "label": "Quotes, invoices, payments",
+     "us": "None. TaskSiddhi does not quote, invoice or take payment",
+     "them": "Quoting, invoicing and payments on every plan"
+    },
+    {
+     "label": "Burndown, velocity, cycle time",
+     "us": "Burndown, weekly velocity, cycle time, hours per day, time by person",
+     "them": "Not listed on their pricing page"
+    },
+    {
+     "label": "Timeline / Gantt",
+     "us": "No Timeline or Gantt view",
+     "them": "Not listed on their pricing page"
+    }
+   ],
+   "they_win": [
+    "Housecall Pro quotes, invoices and takes payment, and lets customers book online. TaskSiddhi does none of that, so for a home-services business that needs to get paid from one tool it is the better choice.",
+    "Route optimisation comes with their Max plan. TaskSiddhi has no routing or mapping at all.",
+    "Housecall Pro has a native iPhone app. TaskSiddhi is Android and web only."
+   ],
+   "we_win": [
+    "A six-person crew pays nothing on TaskSiddhi. On Housecall Pro that crew needs Essentials plus one extra user, $184 a month on annual billing.",
+    "TaskSiddhi is free to use, where Housecall Pro has no free plan at all.",
+    "Burndown, velocity and cycle time reports are built in.",
+    "Nothing to count and nothing to buy: put the whole crew on it."
+   ],
+   "switch_note": "Export your jobs and customers from Housecall Pro to a spreadsheet, then use TaskSiddhi's five-step spreadsheet import. There is no direct importer. Estimates, invoices, payments and online booking have no equivalent in TaskSiddhi and do not come across."
+  },
+  {
+   "slug": "servicetitan",
+   "name": "ServiceTitan",
+   "checked": "2 October 2026",
+   "checked_iso": "2026-10-02",
+   "url": "https://tasksiddhi.com/alternatives/servicetitan",
+   "sources": [
+    {
+     "label": "servicetitan.com/pricing",
+     "url": "https://www.servicetitan.com/pricing"
+    }
+   ],
+   "summary": "ServiceTitan is enterprise field service and does not publish a price. TaskSiddhi is a free board for crews who found that too much.",
+   "rows": [
+    {
+     "label": "Price",
+     "us": "Free Forever, or Custom (quoted)",
+     "them": "Not published. Starter, Essentials and The Works each show a Request Pricing button; pricing is per technician"
+    },
+    {
+     "label": "Getting a price",
+     "us": "Nothing to request: free, stated on the pricing page",
+     "them": "Request pricing from sales, for every tier"
+    },
+    {
+     "label": "Free plan",
+     "us": "Free to use, no seat count",
+     "them": "No free plan or trial shown on their pricing page"
+    },
+    {
+     "label": "Quotes, invoices, payments",
+     "us": "None. TaskSiddhi does not quote, invoice or take payment",
+     "them": "Mobile Estimates on Starter and Essentials; invoicing on all three tiers"
+    },
+    {
+     "label": "Burndown, velocity, cycle time",
+     "us": "Burndown, weekly velocity, cycle time, hours per day, time by person",
+     "them": "Not listed on their pricing page"
+    },
+    {
+     "label": "Timeline / Gantt",
+     "us": "No Timeline or Gantt view",
+     "them": "Not listed on their pricing page"
+    }
+   ],
+   "they_win": [
+    "ServiceTitan is a full field-service platform: estimates, invoicing, payments, dispatch and call booking. TaskSiddhi does none of that, so for a shop that wants one system end to end it is the better choice.",
+    "It is built for contractors with dispatchers and a call centre. TaskSiddhi is for crews of 5 to 30 and has no dispatch or telephony.",
+    "Mobile Estimates let a technician price the work on site. TaskSiddhi cannot produce a quote at all."
+   ],
+   "we_win": [
+    "TaskSiddhi is free, and says so on the website. ServiceTitan's price is not published anywhere.",
+    "No card and nothing to request from sales, where their pricing page shows neither a free plan nor a trial.",
+    "Burndown, velocity and cycle time reports are built in.",
+    "Android and web, so a crew on mid-range Android phones needs nothing extra."
+   ],
+   "switch_note": "Export your job and customer lists to a spreadsheet, then use TaskSiddhi's five-step spreadsheet import. There is no direct importer. Estimates, invoices, payments, dispatch and call recordings have no equivalent in TaskSiddhi and do not come across."
+  }
+ ]
+}
