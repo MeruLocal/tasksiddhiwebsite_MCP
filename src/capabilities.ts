@@ -21,11 +21,11 @@ export const capabilities: Capability[] = [
     answer: "No. TaskSiddhi has no Timeline or Gantt view. Dates are due dates and schedule dates on tasks; the Gantt chart template is a phased plan as a task board, not a chart.", url: `${SITE}/templates/gantt-chart` },
   { id: "guests", label: "Guest access or client share links", keywords: ["guest", "client access", "share link", "external", "client portal", "share board"], verdict: "no",
     answer: "No. There is no guest access and no client share links; everyone on a board is a member of the workspace.", url: `${SITE}/features/safety-and-control` },
-  { id: "import-competitors", label: "Direct importer from Trello, Asana or Jira", keywords: ["trello import", "asana import", "jira import", "migrate", "migration", "importer", "switch from"], verdict: "no",
+  { id: "import-competitors", label: "Direct importer from Trello, Asana or Jira", keywords: ["trello import", "asana import", "jira import", "migrate", "migration", "importer", "switch from", "import from", "from trello", "from asana", "from jira", "jira", "move from"], verdict: "no",
     answer: "No direct importer from Trello, Asana or Jira. Export to a spreadsheet (CSV or Excel) and use TaskSiddhi's spreadsheet import.", url: `${SITE}/features/capture` },
   { id: "spreadsheet-import", label: "Spreadsheet import", keywords: ["import", "csv import", "excel import", "spreadsheet", "upload"], verdict: "yes",
     answer: "Yes. Spreadsheet import (CSV or Excel) is built in.", url: `${SITE}/features/capture` },
-  { id: "export", label: "CSV or Excel export", keywords: ["export", "download data", "csv export", "excel export", "backup"], verdict: "yes",
+  { id: "export", label: "CSV or Excel export", keywords: ["export", "download data", "csv export", "excel export"], verdict: "yes",
     answer: "Yes. CSV or Excel export, up to 10,000 rows per export.", url: `${SITE}/features/capture` },
   { id: "pdf-export", label: "PDF export", keywords: ["pdf"], verdict: "no", answer: "No. There is no PDF export.", url: `${SITE}/features` },
   { id: "scheduled-reports", label: "Scheduled report delivery", keywords: ["scheduled report", "email report", "report delivery", "weekly report email"], verdict: "no",
@@ -56,8 +56,10 @@ export const capabilities: Capability[] = [
     answer: "No. TaskSiddhi needs a connection.", url: `${SITE}/features/mobile` },
   { id: "customer-messaging", label: "Sending messages, quotes or invoices to customers", keywords: ["whatsapp", "send email", "email customers", "quote", "invoice", "customer message", "crm", "call"], verdict: "no",
     answer: "No. TaskSiddhi sends customers nothing: no WhatsApp, calls, email, quotes or invoices to customers. It is for the team's own work.", url: `${SITE}/about` },
-  { id: "price", label: "Price per user", keywords: ["price", "pricing", "cost", "per user", "per seat", "free", "paid", "trial", "plan"], verdict: "yes",
-    answer: "Free Forever is the whole product for the whole team: no per-user price, no trial, no payment card, in any market. Custom is quoted per team. Use the pricing_get_plans tool.", url: `${SITE}/pricing` },
+  { id: "dependencies", label: "Blocking task dependencies", keywords: ["dependenc", "blocked by", "block task", "blocking"], verdict: "partial",
+    answer: "Partly. Dependencies warn but do not block.", url: `${SITE}/features/automation` },
+  { id: "price", label: "Per-user price", keywords: ["price", "pricing", "cost", "per user", "per seat", "free", "paid", "trial", "plan"], verdict: "no",
+    answer: "There is no per-user price. Free Forever is the whole product for the whole team: no per-user price, no trial, no payment card, in any market. Custom is quoted per team. Call pricing_get_plans for the plans.", url: `${SITE}/pricing` },
 ];
 
 export function matchCapabilities(need: string): Capability[] {
