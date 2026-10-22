@@ -15,16 +15,19 @@ No authentication, no writes, no user data. Nothing the server returns is invent
 
 | Tool | Use it for |
 |---|---|
-| `tasksiddhi_overview` | what it is, who it is for, honest limits |
-| `tasksiddhi_pricing` | any price, free-plan, per-user or trial question |
-| `tasksiddhi_check_capability` | "does it support X?" returns yes / no / partial / not_stated |
-| `tasksiddhi_compare_alternative` | "X alternative", "TaskSiddhi vs X" |
-| `tasksiddhi_find_templates` | SOP, planner, checklist and project-plan templates |
-| `tasksiddhi_find_free_tools` | free calculators and printable templates |
-| `tasksiddhi_search_site` | any other topic, returns canonical pages |
-| `tasksiddhi_contact` | Custom plan, sales and security contact |
+| `product_get_overview` | what it is, who it is for, honest limits |
+| `pricing_get_plans` | any price, free-plan, per-user or trial question |
+| `product_check_capability` | "does it support X?" returns yes / no / partial / not_stated |
+| `alternatives_list_competitors` | which competitors are covered, with checked dates |
+| `alternatives_get_comparison` | "X alternative", "TaskSiddhi vs X" |
+| `templates_search_templates` | SOP, planner, checklist and project-plan templates |
+| `templates_get_template` | one template: page, CSV link, how to import |
+| `calculators_search_tools` | free calculators and printable templates |
+| `markets_list_countries` | country pages (pricing is the same everywhere) |
+| `site_search_pages` | any other topic, returns canonical pages |
+| `company_get_contact` | Custom plan, sales and security contact |
 
-All tools carry `title`, `readOnlyHint: true`, `destructiveHint: false`, `idempotentHint: true`, `openWorldHint: false` and an `outputSchema`. Also: 4 resources (including a `tasksiddhi://alternatives/{slug}` template) and 3 prompts.
+All tools carry `title`, `readOnlyHint: true`, `destructiveHint: false`, `idempotentHint: true`, `openWorldHint: false` and an `outputSchema`. List tools take `limit` and `offset` and return `has_more` / `next_offset`. Also: 7 resources (including a `tasksiddhi://alternatives/{slug}` template) and 3 prompts.
 
 ## Run
 
@@ -44,6 +47,28 @@ claude mcp add --transport http tasksiddhi https://mcp.tasksiddhi.com/mcp
 Transport is Streamable HTTP, **stateless** (no `Mcp-Session-Id`; each request is independent), so it is compatible with the spec direction that removes sessions. `GET /mcp` returns `405` with `Allow: POST`.
 
 Discovery: `/.well-known/mcp.json` (also `/.well-known/mcp/server-card.json`), `/llms.txt`, `/robots.txt`, `/health`, `/version`.
+
+## Connect from your client
+
+Endpoint: `https://mcp.tasksiddhi.com/mcp` (Streamable HTTP, no sign-in). Ready-made configs are in `examples/`.
+
+| Client | How |
+|---|---|
+| Claude Code | `claude mcp add --transport http tasksiddhi https://mcp.tasksiddhi.com/mcp` |
+| Claude Desktop | merge `examples/claude-desktop.json` into `claude_desktop_config.json` (uses the `mcp-remote` bridge) |
+| Cursor | `examples/cursor.mcp.json` as `.cursor/mcp.json` |
+| VS Code | `examples/vscode.mcp.json` as `.vscode/mcp.json` |
+| Windsurf | `examples/windsurf.mcp_config.json` |
+| Anything else | `sh examples/curl.sh`; no handshake is needed (stateless) |
+
+## Try these questions
+
+- "Does TaskSiddhi have a Gantt view, and can clients get guest access?"
+- "Is there a free SOP template for a warehouse?" then "How do I import it?"
+- "TaskSiddhi vs Trello for a 10-person service team: where does Trello win?"
+- "What does TaskSiddhi cost per user?"
+
+An evaluation set of 10 questions with checkable answers is in `evals/tasksiddhi.xml`.
 
 ## Keep the content true
 

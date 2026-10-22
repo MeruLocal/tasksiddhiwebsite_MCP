@@ -45,12 +45,12 @@ describe("protocol", () => {
 
   it("returns JSON-RPC errors for unknown methods and invalid params, not crashes", async () => {
     expect((await rpc("nope/nope")).body.error.code).toBe(-32601);
-    const bad = await rpc("tools/call", { name: "tasksiddhi_search_site", arguments: { query: "x" } });
+    const bad = await rpc("tools/call", { name: "site_search_pages", arguments: { query: "x" } });
     expect(bad.body.error ?? bad.body.result.isError).toBeTruthy();
   });
 
   it("returns an isError result (not a transport error) for an unknown competitor", async () => {
-    const r = await call("tasksiddhi_compare_alternative", { competitor: "Nonexistent Tool 9000" });
+    const r = await call("alternatives_get_comparison", { competitor: "Nonexistent Tool 9000" });
     expect(r.isError).toBe(true);
     expect(r.content[0].text).toMatch(/Available:/);
   });
@@ -84,26 +84,26 @@ describe("protocol", () => {
 
 describe("answers", () => {
   it("pricing states no per-user price and no trial", async () => {
-    const r = await call("tasksiddhi_pricing");
+    const r = await call("pricing_get_plans");
     expect(r.structuredContent.summary).toMatch(/no per-user price/);
     expect(r.structuredContent.canonical_urls).toContain("https://tasksiddhi.com/pricing");
   });
 
   it("Gantt is answered NO, guests NO, time tracking YES, unknown is not_stated", async () => {
-    expect((await call("tasksiddhi_check_capability", { need: "gantt chart" })).structuredContent.matches[0].verdict).toBe("no");
-    expect((await call("tasksiddhi_check_capability", { need: "guest access for clients" })).structuredContent.matches[0].verdict).toBe("no");
-    expect((await call("tasksiddhi_check_capability", { need: "time tracking" })).structuredContent.matches[0].verdict).toBe("yes");
-    expect((await call("tasksiddhi_check_capability", { need: "SAML single sign-on" })).structuredContent.verdict).toBe("not_stated");
+    expect((await call("product_check_capability", { need: "gantt chart" })).structuredContent.matches[0].verdict).toBe("no");
+    expect((await call("product_check_capability", { need: "guest access for clients" })).structuredContent.matches[0].verdict).toBe("no");
+    expect((await call("product_check_capability", { need: "time tracking" })).structuredContent.matches[0].verdict).toBe("yes");
+    expect((await call("product_check_capability", { need: "SAML single sign-on" })).structuredContent.verdict).toBe("not_stated");
   });
 
   it("finds SOP templates and only returns listed URLs", async () => {
-    const r = await call("tasksiddhi_find_templates", { query: "warehouse SOP" });
+    const r = await call("templates_search_templates", { query: "warehouse SOP" });
     expect(r.structuredContent.templates[0].url).toBe("https://tasksiddhi.com/templates/warehouse");
     for (const u of r.structuredContent.canonical_urls) expect(u).toMatch(/^https:\/\/tasksiddhi\.com\//);
   });
 
   it("comparison carries the checked date and where the competitor wins", async () => {
-    const r = await call("tasksiddhi_compare_alternative", { competitor: "trello" });
+    const r = await call("alternatives_get_comparison", { competitor: "trello" });
     expect(r.structuredContent.checked).toMatch(/^\d{4}-\d{2}-\d{2}$/);
     expect(r.structuredContent.they_win.length).toBeGreaterThan(0);
     expect(r.content[0].text).toMatch(/may have changed/);
@@ -116,7 +116,14 @@ describe("discovery surfaces", () => {
     expect((await (await fetch(`${base}/version`)).json()).tools).toBe(TOOL_NAMES.length);
     for (const p of ["/.well-known/mcp.json", "/.well-known/mcp/server-card.json"]) {
       const card = await (await fetch(`${base}${p}`)).json();
-      expect(card.tools).toHaveLength(TOOL_NAMES.length);
+      expect(card.tool_count).toBe(TOOL_NAMES.length);
+      const listed = (await rpc("tools/list")).body.result.tools;
+      expect(listed.length).toBe(card.tool_count);
+      const rl = (await rpc("resources/list")).body.result.resources.filter((r: any) => !r.uri.startsWith("tasksiddhi://alternatives/"));
+      expect(rl.length).toBe(card.resource_count);
+      expect((await rpc("prompts/list")).body.result.prompts.length).toBe(card.prompt_count);
+      const llms = await (await fetch(`${base}/llms.txt`)).text();
+      for (const n of TOOL_NAMES) expect(llms, n).toContain(n);
       expect(card.authentication.required).toBe(false);
     }
     expect((await (await fetch(`${base}/llms.txt`)).text())).toMatch(/Free Forever/);

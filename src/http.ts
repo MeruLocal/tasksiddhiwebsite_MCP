@@ -1,6 +1,6 @@
 import { createServer as createHttpServer, type IncomingMessage, type ServerResponse, type Server } from "node:http";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
-import { createServer, TOOL_NAMES } from "./server.js";
+import { createServer, TOOL_NAMES, COUNTS } from "./server.js";
 import { site, SITE } from "./data.js";
 import { VERSION } from "./version.js";
 import { serverCard, landingHtml, llmsTxt, robotsTxt } from "./discovery.js";
@@ -103,7 +103,7 @@ export function createApp(opts: HttpOptions): Server {
 
       switch (url.pathname) {
         case "/health": return json(res, 200, { status: "ok" });
-        case "/version": return json(res, 200, { name: "tasksiddhi", version: VERSION, tools: TOOL_NAMES.length, site_mirror: site.generated_from });
+        case "/version": return json(res, 200, { name: "tasksiddhi", version: VERSION, mcp_endpoint: `${opts.publicUrl}/mcp`, tools: TOOL_NAMES.length, ...COUNTS, site_mirror: site.generated_from });
         case "/.well-known/mcp.json":
         case "/.well-known/mcp/server-card.json":
           return json(res, 200, serverCard(opts.publicUrl), { "Cache-Control": "public, max-age=3600" });

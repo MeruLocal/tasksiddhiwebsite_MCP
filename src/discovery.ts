@@ -1,19 +1,22 @@
 import { site, SITE } from "./data.js";
 import { VERSION } from "./version.js";
-import { TOOL_NAMES } from "./server.js";
+import { TOOL_NAMES, COUNTS } from "./server.js";
 
 const DESCRIPTION =
   "Read-only answers about TaskSiddhi, a free task and work board for field and service teams: what it does and does not do, pricing model, comparisons with Trello, Asana, Jobber and others, and free SOP, planner and checklist templates. Every answer carries canonical tasksiddhi.com URLs.";
 
 const TOOLS = [
-  ["tasksiddhi_overview", "What TaskSiddhi is, who it suits, what it does not do."],
-  ["tasksiddhi_pricing", "Free Forever plus quoted Custom plan; no per-user price."],
-  ["tasksiddhi_check_capability", "Does it support Gantt, guests, iOS, offline, import, time tracking, API?"],
-  ["tasksiddhi_compare_alternative", "Sourced side-by-side with Trello, Asana, Todoist, Planner, Zoho Projects, Bitrix24, Jobber, Housecall Pro, ServiceTitan."],
-  ["tasksiddhi_find_templates", "Free CSV templates and SOP checklists that import into a board."],
-  ["tasksiddhi_find_free_tools", "Free browser calculators and printable templates."],
-  ["tasksiddhi_search_site", "Find the right tasksiddhi.com page for any topic."],
-  ["tasksiddhi_contact", "Contact, Custom plan and security reporting details."],
+  ["product_get_overview", "What TaskSiddhi is, who it suits, what it does not do."],
+  ["pricing_get_plans", "Free Forever plus quoted Custom plan; no per-user price."],
+  ["product_check_capability", "Does it support Gantt, guests, iOS, offline, import, time tracking, API?"],
+  ["alternatives_list_competitors", "Which competitors have a published, dated comparison."],
+  ["alternatives_get_comparison", "Sourced side-by-side with Trello, Asana, Todoist, Planner, Zoho Projects, Bitrix24, Jobber, Housecall Pro, ServiceTitan."],
+  ["templates_search_templates", "Free CSV templates and SOP checklists that import into a board."],
+  ["templates_get_template", "One template: page, CSV download and how to import it."],
+  ["calculators_search_tools", "Free browser calculators and printable templates."],
+  ["markets_list_countries", "Country pages; pricing is the same everywhere."],
+  ["site_search_pages", "Find the right tasksiddhi.com page for any topic."],
+  ["company_get_contact", "Contact, Custom plan and security reporting details."],
 ] as const;
 
 export function serverCard(publicUrl: string) {
@@ -29,7 +32,12 @@ export function serverCard(publicUrl: string) {
     transport: { type: "streamable-http", endpoint: `${publicUrl}/mcp`, stateless: true },
     authentication: { required: false },
     capabilities: { tools: {}, resources: {}, prompts: {} },
-    tools: TOOLS.map(([name, description]) => ({ name, description, readOnly: true })),
+    tool_count: TOOL_NAMES.length,
+    resource_count: COUNTS.resources,
+    resource_template_count: COUNTS.resource_templates,
+    prompt_count: COUNTS.prompts,
+    read_only: true,
+    enumerate: "Call tools/list, resources/list and prompts/list; names are not duplicated here so they cannot drift.",
     content_source: { ...site.generated_from, note: "Mirrors tasksiddhi.com; every answer cites the live page." },
     documentation: `${publicUrl}/`,
     contact: { security: "security@tasksiddhi.com" },

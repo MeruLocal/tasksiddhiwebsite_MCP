@@ -30,7 +30,7 @@ export const SITE = "https://tasksiddhi.com";
 export const site = loadSite();
 
 export const section = (prefix: string) => site.pages.filter((p) => p.section.startsWith(prefix));
-export const templates = () => section("Templates");
+export const templates = () => section("Templates").filter((p) => p.slug);
 export const freeTools = () => section("Free tools");
 
 /** Words that carry no search signal. */

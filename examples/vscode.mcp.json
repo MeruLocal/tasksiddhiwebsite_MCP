@@ -1,0 +1,5 @@
+{
+  "servers": {
+    "tasksiddhi": { "type": "http", "url": "https://mcp.tasksiddhi.com/mcp" }
+  }
+}

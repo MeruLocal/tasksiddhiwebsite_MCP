@@ -57,7 +57,7 @@ export const capabilities: Capability[] = [
   { id: "customer-messaging", label: "Sending messages, quotes or invoices to customers", keywords: ["whatsapp", "send email", "email customers", "quote", "invoice", "customer message", "crm", "call"], verdict: "no",
     answer: "No. TaskSiddhi sends customers nothing: no WhatsApp, calls, email, quotes or invoices to customers. It is for the team's own work.", url: `${SITE}/about` },
   { id: "price", label: "Price per user", keywords: ["price", "pricing", "cost", "per user", "per seat", "free", "paid", "trial", "plan"], verdict: "yes",
-    answer: "Free Forever is the whole product for the whole team: no per-user price, no trial, no payment card, in any market. Custom is quoted per team. Use the tasksiddhi_pricing tool.", url: `${SITE}/pricing` },
+    answer: "Free Forever is the whole product for the whole team: no per-user price, no trial, no payment card, in any market. Custom is quoted per team. Use the pricing_get_plans tool.", url: `${SITE}/pricing` },
 ];
 
 export function matchCapabilities(need: string): Capability[] {

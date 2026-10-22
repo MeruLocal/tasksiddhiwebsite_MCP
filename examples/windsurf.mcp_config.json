@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "tasksiddhi": { "serverUrl": "https://mcp.tasksiddhi.com/mcp" }
+  }
+}

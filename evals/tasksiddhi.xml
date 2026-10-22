@@ -1,0 +1,43 @@
+<evaluation>
+  <!-- 10 read-only questions answerable only with this server's tools. Answers come from data/site.json (mirror of the website trunk) and are stable until the next sync; re-verify after `npm run sync`. -->
+  <qa_pair>
+    <question>Using only the published TaskSiddhi comparisons, on what date (YYYY-MM-DD) were the Microsoft Planner facts checked?</question>
+    <answer>2026-09-23</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many competitors have a published, dated comparison with TaskSiddhi?</question>
+    <answer>9</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>A warehouse manager wants a free SOP template that imports into a TaskSiddhi board. What is the slug of the matching template?</question>
+    <answer>warehouse</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many free templates does the server list in total?</question>
+    <answer>19</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many free browser calculators and printable tools does the server list in total?</question>
+    <answer>57</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many country homepages does TaskSiddhi publish?</question>
+    <answer>7</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Does TaskSiddhi have a Gantt or Timeline view? Answer yes or no.</question>
+    <answer>no</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is TaskSiddhi's price per user per month? Answer with the word "none" if no per-user price exists.</question>
+    <answer>none</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is the maximum number of rows in one CSV or Excel export?</question>
+    <answer>10000</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What email address does TaskSiddhi publish for security reports?</question>
+    <answer>security@tasksiddhi.com</answer>
+  </qa_pair>
+</evaluation>
