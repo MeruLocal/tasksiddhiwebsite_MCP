@@ -1,0 +1,36 @@
+{
+  "name": "tasksiddhi-mcp",
+  "version": "1.0.0",
+  "description": "Public, read-only Model Context Protocol server for TaskSiddhi, a free task and work board for field and service teams, by Soor LLC. Answers buyer questions with canonical tasksiddhi.com URLs.",
+  "license": "MIT",
+  "author": "Soor LLC",
+  "homepage": "https://tasksiddhi.com",
+  "mcpName": "com.tasksiddhi/mcp",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "tasksiddhi-mcp": "dist/index.js" },
+  "files": ["dist", "data/site.json", "README.md", "LICENSE", "server.json"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "sync": "node scripts/sync-from-site.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check:versions": "node scripts/check-versions.mjs",
+    "probe": "node scripts/probe.mjs",
+    "verify": "npm run typecheck && npm run check:versions && npm run test"
+  },
+  "keywords": ["mcp", "model-context-protocol", "task-management", "kanban", "field-service", "sop-templates", "tasksiddhi"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": { "node": ">=20.0.0" }
+}

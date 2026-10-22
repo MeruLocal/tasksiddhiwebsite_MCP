@@ -1,0 +1,4 @@
+# Smithery: remote (hosted) server. Submission packet: docs/submissions/smithery.md
+startCommand:
+  type: http
+  url: https://mcp.tasksiddhi.com/mcp

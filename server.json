@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.tasksiddhi/mcp",
+  "title": "TaskSiddhi",
+  "description": "Read-only answers about TaskSiddhi, a free task board for field and service teams: capabilities, honest limits, pricing model, comparisons and free SOP templates.",
+  "version": "1.0.0",
+  "websiteUrl": "https://tasksiddhi.com",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://mcp.tasksiddhi.com/mcp" }
+  ]
+}
